@@ -1,0 +1,17 @@
+import UIKit
+
+var Rango:[Int]=[]
+
+for i in 0...100 {
+    Rango.append(i)
+}
+
+Rango
+
+for n in Rango {
+    if n%5 == 0 && n>0 {print("\(n)\t Bingo!!!")}
+    if n%2 == 0 && n>0 {print("\(n)\t es par")}
+    if n%2 != 0 && n>0 {print("\(n)\t es impar")}
+    if 30<n && n<40 {print("\(n) Viva Swift")}
+    
+}
